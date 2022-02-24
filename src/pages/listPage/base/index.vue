@@ -2,15 +2,15 @@
   <div class="list-common-table">
     <t-row>
       <t-col :span="3" >
-        <div  style="background:red">
+        <div  >
           <t-button theme="primary">新建合同</t-button>
           <t-button theme="default">导出合同</t-button>
-          <span>已选 2 项</span>
+          <span style="padding-left:10px">已选 2 项</span>
         </div>
       </t-col>
       <t-col :span="5"></t-col>
       <t-col :span="4" >
-        <div style="background:green">
+        <div>
           <t-input
             clearable
             v-model="value"
